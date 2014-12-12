@@ -1,12 +1,15 @@
-/* templatemo.com 396 smoothy */
 
-/* 
-Smoothy Template 
-http://www.templatemo.com/preview/396_smoothy 
-*/
+@font-face{
+	font-family: nexabold;
+	src: url("../fonts/NexaBold.otf");}
+
+@font-face{
+font-family: nexalight;
+src: url("../fonts/NexaLight.otf");}
+
 
 html, body {
-	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	font-family:  "nexabold", "nexalight", Arial, Helvetica, sans-serif; 
 	padding: 0px; 
 	margin: 0px; 
 	color: #8a8a8a;
@@ -28,7 +31,7 @@ p {
 .height20 { height: 20px; }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: "nexabold", Arial, Helvetica, sans-serif;
 	font-weight: 400;
 }
 
@@ -78,7 +81,7 @@ header {
 }
 .logo {
 	padding: 0 0 0 20px;
-	width: 190px;
+	width: 140px;
 }
 
 .mainMenu {
@@ -98,7 +101,11 @@ header {
 	display: block;
 	text-transform: uppercase;
 	color: #939393;
-	padding: 25px 20px 5px 15px !important;
+	padding: 2px 15px !important;
+}
+
+#bottom-menu{
+	font-family: "nexalight";
 }
 
 #top-menu {
@@ -113,9 +120,9 @@ header {
 
 #top-menu a {
     display: block;
-    -webkit-transition: 1s all ease;
-    -moz-transition: 1s all ease;
-    transition: 1s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    transition: 0.5s all ease;
     color: #333;
     text-decoration: none;
 	font-size: 28px;
