@@ -308,20 +308,9 @@ header {
 }
 .blog p { padding-bottom: 50px; }
 .wrapperblogbox	{	
-	float: left;
-}
-.wrapperblogbox a.fa	{ 
-	padding: 8px;
-	background: #c6cfd3;
-	color: #ffffff;
-	margin: 0px;
-	text-align: left;
-	float: left;
-	font-size: 18px;
-}
-
-.wrapperblogbox a.fa:hover {
+	position: absolute;
 	background: #72b842;
+	padding: 2px 5px;	
 }
 
 .wrapperblogbox .tooltip1, .wrapperblogbox .tooltip2, .wrapperblogbox .tooltip3, .wrapperblogbox .tooltip4 {
