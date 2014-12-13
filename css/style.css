@@ -80,13 +80,13 @@ header {
 	position: relative;
 }
 .logo {
+	margin-bottom: 10px;
 	padding: 0 0 0 20px;
 	width: 140px;
 }
 
-.mainMenu {
+.mainMenu { }
 
-}
 .mainMenu ul {
 	float: right;
 	padding-left: 0;
@@ -114,7 +114,7 @@ header {
 #top-menu ul { float: right;}
 #top-menu li {
     float: left;
-	line-height: 60px;
+    line-height: 50px;
 	display: inline-block;
 }
 
@@ -763,7 +763,7 @@ section.module.parallax-2 {
   background-image: url("../images/slider/2.jpg");
 }
 section.module.parallax-3 {
-  background-image: url("../images/demo/_small/3.jpg");
+  background-image: url("../images/slider/3.jpg");
 }
 
 
