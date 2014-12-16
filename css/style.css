@@ -354,12 +354,12 @@ header {
 	width: 100%;
 }
 
-span.left	{
+.blog span.left	{
 	text-align: left;
 	width: 70%;
 	float: left;
 }
-span.right	{
+.blog span.right	{
 	text-align: right;
 	width: 30%;
 	float: left;
