@@ -44,7 +44,7 @@ h1	{	font-size: 1.5em;
 	
 h2	{ font-size: 24px; color: #333333; }
 
-.reasonbg h2, .blog h2 { color: #ffffff; }
+.reasonbg h2, .blog h2 { color: #ffffff;}
 
 img {
   	max-width: 100%;
@@ -65,6 +65,7 @@ header {
   	background-color: white;
   	z-index: 5000;
 }
+
 
 .top_fixed	{
 	position: fixed;
@@ -672,23 +673,25 @@ clear: both;
 
 
 .mensaje .top div {
-	width: 50%;
+	width: 41%;
 	background: #4A72B1;
 	-webkit-border-bottom-right-radius: 100px;
 	-moz-border-radius-bottomright: 100px;
 	border-bottom-right-radius: 100px;
-	padding: 5px 10px;
+	padding: 5px; 
 }
 
 .mensaje .top div h2{
 	color: white;
+	margin-top: 5px;
+	margin-bottom: 12px;
 }
 
 .mensaje .bot {
 	background: rgba(250,242,255,.5);
 	bottom: 0;
 	position: absolute;
-	width: 102%;
+	width: 100%;
 	padding-left: 15px;
 }
 
