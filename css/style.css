@@ -701,6 +701,13 @@ clear: both;
 	padding: 20px;
 }
 
+.stroke {
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 1px black;
+}
+
+
 /*:::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::*/
