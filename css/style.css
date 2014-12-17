@@ -135,12 +135,12 @@ header {
 }
 
 
-#top-menu nav.mainMenu ul.nav li:nth-child(3n+1) a:hover {
+#top-menu nav.mainMenu ul li:nth-child(3n+1) a:hover {
     color: #ffffff;
 	background: #e8b92f;
 }
 
-#top-menu nav.mainMenu ul.nav li:nth-child(3n+2) a:hover {
+#top-menu nav.mainMenu ul li:nth-child(3n+2) a:hover {
     color: #ffffff;
 	background: #4a72b1;
 }
@@ -648,6 +648,7 @@ ul.footer_gallery li img { }
 	background: #F9B546;
 }
 
+
 .viajes{
 	background-position: 0% 0;
 }
@@ -869,6 +870,7 @@ and (max-width : 480px) {
 	.mensaje .top div h2{ font-size: 19px; }
 	.page-blog .page-title {position: relative; top:auto;}
 	#bottom-menu {display: none;}
+	.logo { width: 70px; }
 	#top-menu li a {		
 		font-size: 16px;
 	}
@@ -906,7 +908,7 @@ and (max-width : 480px) {
 
 }
 @media(max-width:767px){
-	.top_fixed{position: relative;}
+	.logo { width: 70px; }
 	.page-blog .page-title {position: relative; top:auto;margin-top: -21px;}
 	#bottom-menu {display: none;}
 	.col9	{ padding: 0px;}

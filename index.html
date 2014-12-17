@@ -14,8 +14,8 @@
 
     <link href="css/circle.css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/responsivemenu/rmm-css/responsivemobilemenu.css" type="text/css"/>s
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/JavaScript" src="js/slimbox2.js"></script> 
 
@@ -25,46 +25,45 @@
     <![endif]-->
 
   </head>
-  <body>
+<body>
     
 
     <header>
     <!-- start menu -->
     <section id="home">
       <div class="top_fixed">
-      <div class="container container">
-        <div class="row">
-          <div class="col-sm-3 col-md-3" style="text-align:center;">
-            <div class="logo">
-              <a href="#"><img src="images/logo.png" height="400px"></a>
-            </div>
-          </div>
-          <div class="col-sm-9 col-md-9 col9">
-            <div id="bottom-menu" class="row">
-                <div>
-                    <nav class="mainMenu">
-                          <ul class="nav">
-                                <li><a class="menu" href="#inicio">Inicio</a></li>
-                                <li><a class="menu active" href="#esp">ESP</a></li>
-                                <li><a class="menu" href="#eng">ENG</a></li>
-                          </ul>
-                    </nav>
-                </div>
-            </div>
+        <div class="container">
             <div class="row">
-                <div id="top-menu">
-                    <nav class="mainMenu">
-                          <ul class="nav">
-                                <li><a class="menu" href="#about">Viajes</a></li>
-                                <li><a class="menu" href="#portfolio">Nosotros</a></li>
-                                <li><a class="menu" href="#blog">Locales</a></li>
-                          </ul>
-                    </nav>
+                <div class="col-sm-3 col-md-3" style="text-align:center;">
+                    <div class="logo">
+                      <a href="#"><img src="images/logo.png" height="400px"></a>
+                    </div>
+                </div>
+                <div class="col-sm-9 col-md-9 col9">
+                    <div id="bottom-menu" class="row">
+                        <div>
+                            <nav class="mainMenu">
+                                  <ul class="nav">
+                                        <li><a class="menu active" href="#esp">ESP</a></li>
+                                        <li><a class="menu" href="#eng">ENG</a></li>
+                                  </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="top-menu">
+                            <nav class="mainMenu rmm"  data-menu-style = "minimal">
+                                  <ul class="nav">
+                                        <li><a class="menu" href="#viajes">Viajes</a></li>
+                                        <li><a class="menu" href="#nosotros">Nosotros</a></li>
+                                        <li><a class="menu" href="#locales">Copropiedad</a></li>
+                                  </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
         </div>
-      </div>
         </div>
     </section>
     
@@ -306,6 +305,7 @@
     <script src="js/jquery.cycle2.carousel.min.js"></script>
     <script src="js/jquery.nivo.slider.pack.js"></script>
     <script>$.fn.cycle.defaults.autoSelector = '.slideshow';</script>
+    <script type="text/javascript" src="css/responsivemenu/rmm-js/responsivemobilemenu.js"></script> 
     <script type="text/javascript">
 
         
