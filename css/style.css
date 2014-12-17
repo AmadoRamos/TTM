@@ -737,6 +737,16 @@ clear: both;
 	text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
 
+.page-blog .bot {
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.page-blog .bot  a{
+	font-size: 1.2em;
+}
+
 
 /*:::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::*/
