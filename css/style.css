@@ -623,36 +623,42 @@ ul.footer_gallery li img { }
 
 
 .sprite_menu_2 {
-	background: url("../images/sprite/sprite_menu_2.png") no-repeat 0 0;
+	background: url("../images/sprite/sprite_home.png") no-repeat 0 0;
 	background-size: auto 100%;
 	display: inline-block;
 	height: 200px;
-	width: 200px;
+	width: 280px;
 
 
 }
 
 .bg-yellow {
-	background: #D1A327;
+	background: #FCDE63;
 }
 
 .bg-blue {
-	background: #4A72B1;
+	background: #44B9D8;
 }
 
 .bg-green {
-	background: #4F8E3A;
+	background: #7BC15D;
 }
 
-.colombia{
+.bg-orange {
+	background: #F9B546;
+}
+
+.viajes{
 	background-position: 0% 0;
 }
 
-.cordoba{
-	background-position: 45% 0;
+.noticias{
+	background-position: 33% 0;
 }
-
-.tienda{
+.nosotros{
+	background-position: 67% 0;
+}
+.copropiedad{
 	background-position: 99% 0;
 }
 .box {
