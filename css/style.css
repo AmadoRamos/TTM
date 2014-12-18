@@ -855,7 +855,13 @@ section.module.parallax-3 {
 }
 
 section.module.parallax-4 {
-  background-image: url("../images/slider/background_viajes.png");
+  	background-image: url("../images/slider/background_viajes.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 
 
