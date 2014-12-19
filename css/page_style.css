@@ -858,10 +858,10 @@ section.module.parallax-4 {
   	background-image: url("../images/slider/background_viajes.png");
 	background-position: left bottom;
 	background-repeat: no-repeat;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	background-size: 100% auto;
+	-webkit-background-size: 100% 30%;
+	-moz-background-size: 100% 30%;
+	-o-background-size: 100% 30%;
+	background-size: 100% 30%;
 }
 
 
