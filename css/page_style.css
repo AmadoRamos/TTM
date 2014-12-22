@@ -13,6 +13,7 @@ html, body {
 	padding: 0px; 
 	margin: 0px; 
 	color: #8a8a8a;
+	overflow: none;
 }
 
 a {
