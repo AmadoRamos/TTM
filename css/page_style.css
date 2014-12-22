@@ -73,9 +73,10 @@ header {
 	z-index: 5000;
 	background: #ffffff;
 	width: 100%;
-	border-bottom: 5px solid #4a72b1;
+	border-bottom: 5px solid #44B9D8;
 	top: 0;
 }
+
 .slider {
 	top: 20px;
 	min-height: 100px;
@@ -132,18 +133,17 @@ header {
 
 #top-menu a:hover {
     color: #ffffff;
-	background: #1f8641;
+	background: #7BC15D;
 }
-
 
 #top-menu nav.mainMenu ul li:nth-child(3n+1) a:hover {
     color: #ffffff;
-	background: #e8b92f;
+	background: #FCDE63;
 }
 
 #top-menu nav.mainMenu ul li:nth-child(3n+2) a:hover {
     color: #ffffff;
-	background: #4a72b1;
+	background: #44B9D8;
 }
 
 li.active a, li.active:hover a {

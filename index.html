@@ -56,9 +56,9 @@
                         <div id="top-menu">
                             <nav class="mainMenu rmm"  data-menu-style = "minimal">
                                   <ul class="nav">
-                                        <li><a class="menu" href="#viajes">Viajes</a></li>
-                                        <li><a class="menu" href="#nosotros">Nosotros</a></li>
-                                        <li><a class="menu" href="#locales">Copropiedad</a></li>
+                                        <li><a class="menu" data-color="amarillo" href="#viajes">Viajes</a></li>
+                                        <li><a class="menu" data-color="azul" href="#nosotros">Nosotros</a></li>
+                                        <li><a class="menu" data-color="verde" href="#locales">Copropiedad</a></li>
                                   </ul>
                             </nav>
                         </div>
@@ -310,6 +310,35 @@
 
         
       $(function(){
+
+        amarillo = "#FCDE63" ;
+        azul     = "#44B9D8";
+        verde    = "#7BC15D";
+
+
+        $('#top-menu a').hover(__hoverIn__,__hoverOut__);
+
+        function __hoverIn__ () {
+            console.log('__hoverIn__');
+            color = $(this).data('color');
+            new_color = "";
+            if( color == "amarillo" ){
+                new_color = amarillo;
+            } else
+            if( color == "verde" ){
+                new_color  = verde;
+            }
+            else {
+                new_color = azul;
+            }
+            $('.top_fixed').css('border-bottom-color', new_color );
+            //border-bottom: 5px solid #4a72b1;
+        }
+
+        function __hoverOut__ () {
+            console.log('__hoverOut__');
+            $('.top_fixed').css('border-bottom-color', azul );
+        }
             
             
           var default_view = 'grid';
