@@ -55,9 +55,9 @@
                 <div id="top-menu">
                     <nav class="mainMenu">
                           <ul class="nav">
-                                <li><a class="menu" href="#about">Viajes</a></li>
-                                <li><a class="menu" href="#portfolio">Nosotros</a></li>
-                                <li><a class="menu" href="#blog">Locales</a></li>
+                                <li><a class="menu bg-yellow" data-color="amarillo"  href="#about">Viajes</a></li>
+                                <li><a class="menu"  data-color="azul" href="#portfolio">Nosotros</a></li>
+                                <li><a class="menu"  data-color="verde" href="#blog">Locales</a></li>
                           </ul>
                     </nav>
                 </div>
@@ -130,6 +130,36 @@
 
         
       $(function(){
+
+        amarillo = "#FCDE63" ;
+        azul     = "#44B9D8";
+        verde    = "#7BC15D";
+
+
+        $('#top-menu a').hover(__hoverIn__,__hoverOut__);
+        $('.top_fixed').css('border-bottom-color', amarillo );
+
+        function __hoverIn__ () {
+            console.log('__hoverIn__');
+            color = $(this).data('color');
+            new_color = "";
+            if( color == "amarillo" ){
+                new_color = amarillo;
+            } else
+            if( color == "verde" ){
+                new_color  = verde;
+            }
+            else {
+                new_color = azul;
+            }
+            $('.top_fixed').css('border-bottom-color', new_color );
+            //border-bottom: 5px solid #4a72b1;
+        }
+
+        function __hoverOut__ () {
+            console.log('__hoverOut__');
+            $('.top_fixed').css('border-bottom-color', amarillo );
+        }
             
             
           var default_view = 'grid';
